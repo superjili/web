@@ -17,7 +17,7 @@ import com.baidu.ueditor.upload.StorageManager;
 /**
  * 图片抓取器
  * 
- * @author hancong03@baidu.com
+ * 
  * 
  */
 public class ImageHunter {

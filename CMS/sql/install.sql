@@ -1,5 +1,5 @@
-CREATE DATABASE  IF NOT EXISTS `shishuocms` ;
-USE `shishuocms`;
+CREATE DATABASE  IF NOT EXISTS `luoyecongcms` ;
+USE `luoyecongcms`;
 
 CREATE TABLE `admin` (
   `adminId` bigint(10) NOT NULL AUTO_INCREMENT COMMENT '管理员ID',
@@ -121,22 +121,22 @@ CREATE TABLE `media` (
 
 CREATE TABLE `user` (
   `userId` bigint(20) NOT NULL AUTO_INCREMENT COMMENT '用户ID',
-  `openId` bigint(20) DEFAULT NULL COMMENT '公共用户ID，只有是师说，QQ，微博等其它网站登录时才有。',
-  `type` varchar(20) DEFAULT NULL COMMENT '帐号类型：0 本站 1 师说 2 QQ 3 微博',
+  `openId` bigint(20) DEFAULT NULL COMMENT '公共用户ID，只有是，QQ，微博等其它网站登录时才有。',
+  `type` varchar(20) DEFAULT NULL COMMENT '帐号类型：0 本站 1  2 QQ 3 微博',
   `name` varchar(45) DEFAULT NULL COMMENT '用户名',
   `createTime` datetime DEFAULT NULL COMMENT '创建时间',
   PRIMARY KEY (`userId`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=COMPACT COMMENT='用户';
 
 
-INSERT INTO `admin` VALUES (1,'shishuocms','6158f875bf826e15923779855b6eef2e','2012-08-08 00:00:00');
+INSERT INTO `admin` VALUES (1,'luoyecongcms','6158f875bf826e15923779855b6eef2e','2012-08-08 00:00:00');
 
-INSERT INTO `config` VALUES ('shishuo_headline_image_height','420','首页头图的高（px）','2012-08-08 00:00:00');
-INSERT INTO `config` VALUES ('shishuo_headline_image_width','858','首页头图的宽（px）','2012-08-08 00:00:00');
-INSERT INTO `config` VALUES ('shishuo_seo_headline','师说CMS是用Java开发的内容管理系统','网站口号','2012-08-08 00:00:00');
-INSERT INTO `config` VALUES ('shishuo_seo_title','师说CMS','网站名称','2012-08-08 00:00:00');
-INSERT INTO `config` VALUES ('shishuo_static','false','是否启用全站静态化','2012-08-08 00:00:00');
-INSERT INTO `config` VALUES ('shishuo_template','blog','模板','2012-08-08 00:00:00');
+INSERT INTO `config` VALUES ('luoyecong_headline_image_height','420','首页头图的高（px）','2012-08-08 00:00:00');
+INSERT INTO `config` VALUES ('luoyecong_headline_image_width','858','首页头图的宽（px）','2012-08-08 00:00:00');
+INSERT INTO `config` VALUES ('luoyecong_seo_headline','CMS是用Java开发的内容管理系统','网站口号','2012-08-08 00:00:00');
+INSERT INTO `config` VALUES ('luoyecong_seo_title','CMS','网站名称','2012-08-08 00:00:00');
+INSERT INTO `config` VALUES ('luoyecong_static','false','是否启用全站静态化','2012-08-08 00:00:00');
+INSERT INTO `config` VALUES ('luoyecong_template','blog','模板','2012-08-08 00:00:00');
 
 INSERT INTO `admin_folder` VALUES (1,1,'2014-10-29 20:48:42');
 INSERT INTO `admin_folder` VALUES (1,3,'2014-10-29 20:48:43');

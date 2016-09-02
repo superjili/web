@@ -38,7 +38,7 @@
 
 	<filter>
 		<filter-name>ftlFilter</filter-name>
-		<filter-class>com.shishuo.cms.filter.FtlFilter</filter-class>
+		<filter-class>com.luoyecong.cms.filter.FtlFilter</filter-class>
 	</filter>
 	<filter-mapping>
 		<filter-name>ftlFilter</filter-name>
@@ -47,7 +47,7 @@
 
 	<filter>
 		<filter-name>manage</filter-name>
-		<filter-class>com.shishuo.cms.filter.ManageFilter</filter-class>
+		<filter-class>com.luoyecong.cms.filter.ManageFilter</filter-class>
 	</filter>
 
 	<filter-mapping>
@@ -73,7 +73,7 @@
 
 	<context-param>
 		<param-name>webAppRootKey</param-name>
-		<param-value>shishuo.cms.root</param-value>
+		<param-value>luoyecong.cms.root</param-value>
 	</context-param>
 
 	<listener>

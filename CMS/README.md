@@ -1,7 +1,7 @@
-## 欢迎使用 “师说CMS”
+## 欢迎使用 “CMS”
 
 > 使用Java语言开发的CMS（使用Apache2协议，可免费用于商业用途）<br>
-QQ群：7343505 <a target="_blank" href="http://shang.qq.com/wpa/qunwpa?idkey=8330a17a4fdc8ee8dc65b546c27218aac74ba2ea6c34cf5fb75fffe31dc81be8"><img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" alt="师说CMS技术交流" title="师说CMS技术交流"></a>
+QQ群：7343505 <a target="_blank" href="http://shang.qq.com/wpa/qunwpa?idkey=8330a17a4fdc8ee8dc65b546c27218aac74ba2ea6c34cf5fb75fffe31dc81be8"><img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" alt="CMS技术交流" title="CMS技术交流"></a>
 
 ## 部署环境前提
 * eclipse
@@ -13,20 +13,20 @@ QQ群：7343505 <a target="_blank" href="http://shang.qq.com/wpa/qunwpa?idkey=83
 
 ## 部署开发环境
 1. 下载 [Eclipse IDE for Java EE Developers](http://eclipse.org/downloads/)
-2. 打开eclpse,导入师说CMS
+2. 打开eclpse,导入CMS
 3. File -> Import -> Git -> Projects from Git -> Clone URI
-4. 然后在URI输入：https://git.oschina.net/shishuo/CMS.git
+4. 然后在URI输入：https://git.oschina.net/luoyecong/CMS.git
 5. 等待eclipse自动下载jar包
 6. 创建/sql/install.sql数据库
 7. 部署中可能还会碰到很多问题，请加入QQ群：7343505
 
 ## 部署到线上（生产）
-1. 复制 /src/main/resources/shishuocms.properties 到 /
-2. 修改 shishuocms.properties 里的数据库链接、用户名和密码为生产环境的值
+1. 复制 /src/main/resources/luoyecongcms.properties 到 /
+2. 修改 luoyecongcms.properties 里的数据库链接、用户名和密码为生产环境的值
 3. mvn package
 4. 生成/dist文件夹，此文件夹为生产环境的编译目录
 
-## 师说CMS的功能
+## CMS的功能
 
 ### 首页头条
 * 滚动大图上传
@@ -56,11 +56,11 @@ QQ群：7343505 <a target="_blank" href="http://shang.qq.com/wpa/qunwpa?idkey=83
 
 
 ## 捐赠
-如果您喜欢“师说CMS”，认为“师说CMS”确实给您带来方便和帮助，那么欢迎您捐赠。这笔钱会用在“师说CMS”的服务器费用上。非常感谢，您的捐赠，是我们前进的动力。我们将定期公开捐赠和支出。<br>
+如果您喜欢“CMS”，认为“CMS”确实给您带来方便和帮助，那么欢迎您捐赠。这笔钱会用在“CMS”的服务器费用上。非常感谢，您的捐赠，是我们前进的动力。我们将定期公开捐赠和支出。<br>
 <a href='http://me.alipay.com/herbert'> <img src='https://img.alipay.com/sys/personalprod/style/mc/btn-index.png' /> </a>
 
 ## 演示地址
-[http://shishuocms.aliapp.com/](http://shishuocms.aliapp.com/)
+[http://luoyecongcms.aliapp.com/](http://luoyecongcms.aliapp.com/)
 
 ## 技术关键词
 * jQuery
@@ -85,15 +85,15 @@ QQ群：7343505 <a target="_blank" href="http://shang.qq.com/wpa/qunwpa?idkey=83
 
 ## 开发
 
-[长沙市师说网络科技有限公司][1]
+[长沙市网络科技有限公司][1]
 
 ## 版权
 
-    Copyright 2013 Changsha Shishuo Network Technology Co., Ltd.
+    Copyright 2013 Changsha luoyecong Network Technology Co., Ltd.
     All rights reserved.
-    长沙市师说网络科技有限公司
+    长沙市网络科技有限公司
     版权所有
-    http://www.shishuo.com
+    http://www.luoyecong.com
     
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -108,5 +108,5 @@ QQ群：7343505 <a target="_blank" href="http://shang.qq.com/wpa/qunwpa?idkey=83
     limitations under the License.
 
 
-  [1]: http://www.shishuo.com
+  [1]: http://www.luoyecong.com
 
